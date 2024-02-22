@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Meu aniversário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="styles/main.scss">
+</head>
+<body>
+   <header class="hero">
+    <div class="container">
+        <img class="hero__logo" src="./images/party.png" alt="EBAC">
+        <p class="hero__text">
+            Você está convidado para o meu aniversário, que será em <span id="contador"></span>
+        </p>
+        <div class="infos-bar">
+            <ul class="infos-bar__infos">
+                <li class="infos-bar__infos__item">
+                    <b>Localização</b>
+                    Rua Santa Catarina, 556 - Minas Gerais - MG
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>O que trazer</b>
+                    250g de carne/pessoa e o que for beber
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Quando</b>
+                    01/12/2024 às 12h
+                </li>
+            </ul>
+            <a href="#" class="button button--primary">
+                Confirme presença!
+            </a>
+        </div>
+    </div>
+   </header>
+
+   <section class="event event--churras">
+        <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Churras de respeito</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, distinctio quaerat iure, numquam amet nisi porro laboriosam quia excepturi libero sapiente? Amet, neque pariatur earum quisquam deserunt vitae facilis. Aliquam!
+                </p>
+            </div>
+            <img class="event__image" src="./images/churras.png" alt="Churrasqueira">
+        </div>
+   </section>
+   <section class="event event--just-dance event--image-left" >
+    <div class="container" data-aos="zoom-out" data-aos-duration="1000">
+        <div class="event__detail">
+            <h2 class="event__detail__title">Diversão em dança</h2>
+            <p class="event__detail__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, distinctio quaerat iure, numquam amet nisi porro laboriosam quia excepturi libero sapiente? Amet, neque pariatur earum quisquam deserunt vitae facilis. Aliquam!
+            </p>
+        </div>
+        <img class="event__image" src="./images/justdance.png" alt="Just Dance">
+        </div>
+    </section>
+    <section class="event event--bar-talk">
+        <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Conversa de bar</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, distinctio quaerat iure, numquam amet nisi porro laboriosam quia excepturi libero sapiente? Amet, neque pariatur earum quisquam deserunt vitae facilis. Aliquam!
+                </p>
+            </div>
+            <img class="event__image" src="./images/bar.jpg" alt="Amigos no bar">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
